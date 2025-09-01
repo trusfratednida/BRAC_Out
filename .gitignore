@@ -1,0 +1,38 @@
+# =====================
+# Node.js / Backend
+# =====================
+backend/node_modules/
+frontend/node_modules/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# =====================
+# Cache and build files
+# =====================
+frontend/.next/
+frontend/build/
+frontend/.cache/
+backend/.cache/
+.cache/
+
+# =====================
+# OS and editor files
+# =====================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =====================
+# Database or temp files
+# =====================
+*.sqlite
+*.db
